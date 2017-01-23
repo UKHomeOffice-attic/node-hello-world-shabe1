@@ -2,7 +2,7 @@ pipeline:
 
   my-build:
     privileged: true
-    image: docker:1.23
+    image: docker:1.11
     environment:
       - DOCKER_HOST=tcp://127.0.0.1:2375
     commands:
