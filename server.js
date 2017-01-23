@@ -9,7 +9,7 @@ console.log('Server running at http://localhost:' + port)
 
 app.get('/', (req, res) => {
   res.set('Content-Type', 'text/plain')
-  res.send(`Hello world\nSECRET: ${process.env.MYSUPERSECRET}`)
+  res.send(`Really New Hello world\nSECRET: ${process.env.MYSUPERSECRET}`)
   return res.end();
 })
 
